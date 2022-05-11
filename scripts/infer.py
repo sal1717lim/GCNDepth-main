@@ -67,7 +67,7 @@ def evaluate(cfg_path, model_path, img_path, output_path):
 
 
 if __name__ == "__main__":
-    cfg_path = '../config/cfg_kitti_fm.py'# path to cfg file
+    cfg_path = './config/cfg_kitti_fm.py'# path to cfg file
     model_path = sys.argv[1]
     img_path = r'D:\KAIST\kaist-dataset\kaist-cvpr15\images\set11\V000\visible\I00012.jpg'
     output_path = 'test_disp.png' # dir for saving depth maps

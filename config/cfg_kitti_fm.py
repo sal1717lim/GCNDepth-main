@@ -4,7 +4,7 @@ FRAME_IDS = [0, -1, 1]#0 refers to current frame, -1 and 1 refer to temperally a
 IMGS_PER_GPU = 1 #the number of images fed to each GPU
 HEIGHT = 320#input image height
 WIDTH = 1024#input image width
-
+#
 data = dict(
     name = 'kitti',#dataset name
     split = 'exp',#training split name

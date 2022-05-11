@@ -17,7 +17,7 @@ cv2.setNumThreads(0)  # This speeds up evaluation 5x on our unix systems (OpenCV
 STEREO_SCALE_FACTOR = 36
 MIN_DEPTH=1e-3
 MAX_DEPTH=80
-
+#
 
 def evaluate(MODEL_PATH, CFG_PATH, GT_PATH):
     filenames = readlines("../mono/datasets/splits/exp/val_files.txt")

@@ -13,7 +13,7 @@ from mono.model.registry import MONO
 from mono.model.mono_baseline.layers import disp_to_depth
 from mono.datasets.utils import readlines, compute_errors
 from mono.datasets.kitti_dataset import KITTIRAWDataset
-
+#
 cv2.setNumThreads(0)  # This speeds up evaluation 5x on our unix systems (OpenCV 3.3.1)
 STEREO_SCALE_FACTOR = 36
 MIN_DEPTH=1e-3

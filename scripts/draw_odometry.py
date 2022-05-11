@@ -15,7 +15,7 @@ from mono.datasets.utils import readlines,transformation_from_parameters
 from mono.model.mono_baseline.pose_encoder import PoseEncoder
 from mono.model.mono_baseline.pose_decoder import PoseDecoder
 from mono.tools.kitti_evaluation_toolkit import kittiOdomEval
-
+#
 
 def odo(opt):
     if opt.kitti:

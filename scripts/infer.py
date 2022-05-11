@@ -61,7 +61,7 @@ def evaluate(cfg_path, model_path, img_path, output_path):
         depth, disp_resized = predict(cv2_img, model)
 
         vmax = np.percentile(disp_resized, 95)
-        plt.imsave(output_path, disp_resized, cmap='gray', vmax=vmax)
+        plt.imsave(output_path, disp_resized, cmap='gray', vmax=vmax)#
 
 
 
